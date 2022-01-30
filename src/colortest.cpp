@@ -199,7 +199,7 @@ int main() {
 	auto checker=[](const char* input){
 		auto tmp{colour::ifExistingGetIndex(input)};
 		if(tmp!=MAX_INDEX) std::cout << input << " does exist at index: " << tmp << "\n";
-		else std::cout << input << " does exist NOT exist.\n";
+		else std::cout << input << " does NOT exist.\n";
 		};
 	
 	checker("grey");
